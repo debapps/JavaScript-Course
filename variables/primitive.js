@@ -58,19 +58,40 @@ console.log(comment);
 }
 console.log(comment);
 
-// Different types of literals.
-console.log("\nDifferent types of literals.\n");
+// Different Primitive data types in JavaScript.
+// NN BB SS U
+console.log("\nDifferent Primitive data types in JavaScript.\n");
 let num = 14;
 let floatNum = 3.14;
-let s = "String Value";
-let a = undefined;
-let flag = true;
 let n = null;
+let flag = true;
+let bigInt = BigInt("1007");
+let s = "String Value";
+let sym = Symbol("%%");
+let a;
 
 // F-Strings
-console.log(`num: ${num}
+console.log(
+  `num: ${num}
 floatNum: ${floatNum}
+n: ${n}
+flag: ${flag}
+bigInt: ${bigInt}
 s: ${s}
 a: ${a}
-flag: ${flag}
-n: ${n}`);
+sym:`,
+  sym
+);
+
+console.log("\nData Types:");
+
+console.log(
+  typeof num,
+  typeof floatNum,
+  typeof n,
+  typeof flag,
+  typeof bigInt,
+  typeof s,
+  typeof a,
+  typeof sym
+);
