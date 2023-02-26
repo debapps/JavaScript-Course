@@ -1,8 +1,8 @@
 // This program demonstrates the objects in JavaScript.
-// Object is a non-premitive data type in JavaScript which holds key-value pairs.
-// It encapsulates different premitive data variables.
+// Object is a non-primitive data type in JavaScript which holds key-value pairs.
+// It encapsulates different primitive data variables.
 
-console.log("\n******** Non-premitive: Objects ********\n");
+console.log("\n******** Non-primitive: Objects ********\n");
 
 const myCar = {
   make: "Toyota",
