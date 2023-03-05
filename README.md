@@ -4,4 +4,5 @@ This is introductory JavaScript Course. The programs will be stored Chapter-wise
 
 ## Folders
 
-- **variables** - JavaScript Variables and Constants and Objects.
+- **01_variables** - JavaScript Variables and Constants, Objects and Classes. Added the concept of hoisting.
+- **02_operators** - JavaScript Operators: Arithmatic, Increament/Decrement, Assignment, Comparision, Logical, Trinary, Type.

@@ -55,7 +55,7 @@ console.log("c >= d", c >= d);
 console.log("c < d", c < d);
 console.log("c <= d", c <= d);
 
-console.log("\n********** Comparision Operators **********");
+console.log("\n********** Logical Operators **********");
 let result = a == b && a != 0;
 console.log("a == b && a != 0:", result);
 result = a == b || a != 0;
